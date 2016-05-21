@@ -23,8 +23,8 @@ if ARGV.length < 3 && ARGV.length > 4
 end
 
 $type = ARGV[0]                                                    #g / p
-$url = ARGV[1]                                                     #http://host:port/uri
-$data = Hash[ARGV[2].split(",").collect{|x| x.strip.split("=")}]   # name=value,name2=value2
+$url = ARGV[1]                                                     #http://host:port/path/file.ext
+$data = Hash[ARGV[2].split(",").collect{|x| x.strip.split("=")}]   #name=value,name2=value2
 $cookie = (ARGV.length == 4) ? begin ARGV[3].gsub ",",";" end : "" #name=value,name2=value2
 
 def sender()
