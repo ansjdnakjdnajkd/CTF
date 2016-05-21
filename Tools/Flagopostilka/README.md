@@ -3,7 +3,7 @@ Flagopostilka.rb
 
 Simple tool for posting flag into checker
 
-Require [Unirest](http://unirest.io) lib:
+Require [Unirest](http://unirest.io):
 ```
 gem install unirest
 ```
