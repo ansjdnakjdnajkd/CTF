@@ -21,7 +21,7 @@ Options:
   
   or w/o cookie
   
-  ruby flagopostilka.rb p http://127.0.0.1:27/fl.php e=5,f=6,g=7
+  ruby flagopostilka.rb g http://127.0.0.2:8081/checker.py e=5,f=6,g=7
 ```
 Author: gJamDev ( @gjamdev )
 
