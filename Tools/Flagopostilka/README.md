@@ -17,7 +17,7 @@ Options:
   param                 data
   cookie                cookie – isn't require 
 
-ruby flagopostilka.rb p http://127.0.0.1:27/fl.php a=1,b=2 c=3,d=4
+  ruby flagopostilka.rb p http://127.0.0.1:27/fl.php a=1,b=2 c=3,d=4
 ```
 Author: gJamDev ( @gjamdev )
 
